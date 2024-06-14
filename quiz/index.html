@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form - Basic info getting</title>
+        <link rel="icon" type="image/png" href="improved.png">
+    </head>
+    <style>
+    div p{
+        color: blue;
+        font-size: 20px;
+        background-color: yellow;
+    }
+    /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+    /* pesudo selector */
+    a:visited{
+        color:rgb(233, 6, 6);
+    }
+    a:link{
+        color:rgb(21, 123, 123);
+    }
+    a:active{
+        background-color:black;
+        color:aliceblue;
+    }
+    a:hover{
+        background-color: azure;
+    }
+    p:first-child{
+        background-color: blue;
+color: white ;
+    }
+    </style>
+    <body>
+        <div>
+            <article>
+                <p>
+                    this is THe Rock star
+                </p>
+            </article>
+        </div>
+        <h1>Basic info getting</h1>
+        <form method="post" action="submit">
+            <div>
+                <label for="username">Enter Your Name:</label>
+            </div>
+            <div>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter Name"
+                    required
+                ></input>
+            </div>
+            <div>
+                <label for="city">Enter Your city:</label>
+            </div>
+            <div>
+                <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    placeholder="Enter City"
+                    required
+                ></input>
+            </div>
+            <div>
+                <label for="Password">Enter Your Pincode:</label>
+            </div>
+            <div>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter Pincode"
+                    required
+                ></input>
+            </div>
+        </form>
+        <br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+            <circle
+                cx="50"
+                cy="50"
+                r="40"
+                stroke="black"
+                stroke-width="5"
+                fill="lightgreen"
+            />
+        </svg>
+        <img src="img.svg" alt="my svg image">
+        <iframe
+            width="250"
+            height="150"
+            src="https://www.youtube.com/embed/XZwBNDGuWGU?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w"
+            title="Video, Audio &amp; Media in HTML | Sigma Web Development Course - Tutorial #10"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+        ></iframe>
+        <div><iframe src="https://www.merriam-webster.com/dictionary/portfolio" height="500" title="this my website i embending in" frameborder="0"></iframe></div>
+        <div>
+            <iframe src="https://maps.google.com/maps?q=LOCATION&output=embed" title="this my wwebsite i embending in" frameborder="0"></iframe>
+        </div>
+        <video
+            src="abc.crdownload"
+            height="125"
+            controls
+            loop
+            poster="improved.png"
+        ></video>
+        <p id="firstclass" class="blue red">Raja sab kaha</p>
+        <span id="123" class="blue">Raja sab kaha ho</span>
+        <audio
+            type="audio"
+            src="surah-al-ikhlas.mp3"
+            controls
+            loop
+        ></audio>
+        <a href="http://www.youtube.com/watch?v" target="_blank" title="this is a youtube video link">MY YouTube link YOu can visit</a>
+        <a href="www.google.com" target="_blank">Google</a>
+        <a href="http://www.linkedin.com/in/raja-umer-saleem-457901290" target="_blank">Tere bhai ka Linkin account</a>
+        <link rel="stylesheet" href="style.css">
+    </body>
+</html>

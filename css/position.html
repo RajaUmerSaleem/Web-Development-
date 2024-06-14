@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Style Property</title>
+    </head>
+    <style>
+    *{
+        padding:0;
+        margin:0;
+     }
+    .box{
+        padding: 10px;
+        border: 3px solid black;
+        margin: 3px ;
+        height: 210px;
+        /* height: ; */
+        width: 100% ;
+    }
+    .parent{
+        padding: 3px;
+        margin: 3px;
+        border: 3px solid black;
+        filter: invert();
+        /* position:absolute; */
+    }
+    .box1{
+        background-color: aqua;
+        position: fixed;
+        top: 0 px;
+    }
+    .box2{ 
+        background-color: blue;
+    }
+    .box3{
+        background-color: blueviolet;
+    }
+    .box4{
+        background-color: brown;
+    }
+    </style>
+    <body>
+        <div class="parent">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+        </div>
+    </body>
+</html>

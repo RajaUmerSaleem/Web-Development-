@@ -1,0 +1,11 @@
+body{background-color :rgb(176, 240, 28)}
+table{background-color: rgb(210, 200, 200);margin:auto;}
+td{border: 2px solid black;}
+th{border: 2px solid rgb(120, 3, 3);}
+header,footer{background-color:rgb(254, 254, 254)}
+footer,header{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(120, 3, 3);
+}
+

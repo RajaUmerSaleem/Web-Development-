@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+        let a= Math.random()
+        alert("Random"+a);
+        let x=parseFloat(prompt("Enter first number: "))
+        let y=parseFloat(prompt("Enter second number: "))
+        let z=prompt("Enter operator: ")
+alert(
+    "the result was"+x+","+y+","+z
+)
+
+if(a<0.1)
+{
+    let u;
+ switch(z)
+ {
+    case "+":
+    alert(u=(x-y));
+    break;
+    case "-":
+        if(y!=0)
+{
+    alert(u=(x/y));
+}
+else{
+    alert("y must be greater than 0");
+}
+    break;
+    case "*":
+    alert(u=(x+y));
+    break;
+    case "/":
+    alert(u=(x**y));
+    break;
+ }
+}
+    else if(a>0.1)
+    {
+        switch(z){
+            case "+":
+            u=(x+y);
+            alert(u);
+            break;
+            case "-":
+            alert(u=(x-y));
+            break;
+            case "*":
+            alert(u=(x*y));
+            break;
+            case "/":
+            if(y!=0)
+{
+    alert(u=(x/y));
+}
+else{
+    alert("y must be greater than 0");
+}
+            break;
+        }   
+    }
+        </script>
+    </body>
+</html>

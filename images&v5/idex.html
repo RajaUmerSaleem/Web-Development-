@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - Lets Learn It</title>
+  </head>
+  <body>
+    <img width="300" height="500" src="ebook.jpg" alt="ebook_cover" />
+    <h1>
+      <div>Raja</div>
+      <div>umer</div>
+    </h1>
+
+    <table style="padding: 3px">
+      <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Price</th>
+        <th>ISBN</th>
+        <th>Publisher</th>
+        <th>Category</th>
+      </tr>
+      <tr>
+        <td>How to become a topper in board exams?</td>
+        <td>Raja sab</td>
+        <td>2000</td>
+        <td>123456789</td>
+        <td>Self descipline</td>
+        <td>Science</td>
+      </tr>
+      <tr>
+        <td>Sleep trackers</td>
+        <td>Raja sab</td>
+        <td>2000</td>
+        <td>Lorem.</td>
+        <td>Self descipline</td>
+        <td>Science</td>
+      </tr>
+      <tr>
+        <td>Sleep trackers</td>
+        <td>Raja sab</td>
+        <td>2000</td>
+        <td>Lorem.</td>
+        <td>Self descipline</td>
+        <td colspan="2">Science</td>
+      </tr>
+      <tr>
+        <td>Sleep trackers</td>
+        <td>Raja sab</td>
+        <td>2000</td>
+        <td>Lorem.</td>
+        <td>Self descipline</td>
+        <td>Science</td>
+      </tr>
+    </table>
+
+    <form action="submit" method="post">
+      <!-- Text input for username -->
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Ex: Raja Umer Saleem" required />
+      <br /><br />
+
+      <!-- Password input -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Ex: Raja@1546" autofocus/>
+      <br /><br />
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="submit" value="Submit" />
+      <br /><br />
+      <div>
+          <input type="checkbox" id="value" name="value" value="yes" />
+          <label for="value">Subscribe our News Letter </label>
+        </div>
+        <br /><br />
+   </form>
+   <select name "fields">
+    <option value="IT">IT</option>
+    <option value="Science">Science</option>
+    <option value="Commerce">Commerce</option>
+    <option value="Arts">Arts</option>
+    <option value="Sports">Sports</option>
+    <option value="Health">Health</option>
+   </select>
+   <br>
+<label for="comment">Enter Your Comment Here...</label>
+</br>
+<textarea id="comment" name="comment" rows="4" column ="50" autofocus></textarea>
+    <link rel="stylesheet" href="style.css" />
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Layout Challenge</title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0; 
+        }
+        :root{
+            --color:rgb(104, 123, 118);
+            --color2:rgba(62, 48, 159, 0.578);
+        }
+        main{
+            background-color: rgb(205, 238, 207);
+            top:0;
+ position:fixed;
+        }
+    li{
+        list-style: none ;
+        padding :10px;
+        background-color: var(--color2);
+        border: 1px solid var(--color);
+        border-radius: 25%;
+        margin: 3px;
+    }
+    li:nth-last-child(1)
+    {
+        background-color: yellow;
+    }
+    ul{
+        width: 100vw;
+        display: flex ;
+        background-color: var(--color);
+        justify-content: space-evenly;
+    }
+    a:link{
+        color:black;
+        text-decoration: none;
+    }
+    a:hover{
+        color:rgb(171, 190, 2);
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: yellow */
+             font-size: large;
+        font-weight: bold;
+        padding:0 5px 0 5px;
+    }
+    ::selection{
+        background-color: aliceblue;
+    }
+    a:visited{
+        color:rgb(38, 164, 10);
+    }
+    input{
+        color:red;
+    }
+    input{
+        background-color: rgb(251, 251, 251);
+        border: 2px solid  rgb(49, 141, 13);
+    }
+    .box1{
+    width:30vw;
+    height:50vh;
+    background-color: rgb(125, 100, 100);
+    display: inline-block;
+    margin:40px
+}
+.box2{
+    width:30vw;
+    height:50vh;
+    background-color: rgb(197, 27, 27);
+    display: inline-block;
+ margin:40px
+}
+.container{
+    background-color: green;
+    margin:12px;
+    /* padding: 0 12px 0 280px; */
+text-align: center;
+
+}
+.rec{
+    padding: 0 8px 154px 177px;
+}
+p{
+    display: flex;
+    padding: 49px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 44px;
+    width: 70%;
+    word-wrap: break-word;
+    text-align: center;
+    border-radius: 30px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: aqua;
+}
+logo{
+    padding: 0 220px 0 10px;
+}
+img{
+    display: flex;
+    position:fixed;
+    z-index: 250px;
+}
+    </style>
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+                <li>
+                    <a href="#">Register</a>
+                </li>
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+                <li>
+                    <input type="button" value="Search">
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="box1" type="box"></div>
+            <div class="box2" type="box"></div>
+        </div>
+        <div class="container1">
+            <div class="rec">
+                <div class="logo">
+                    <img width="100px" src="instagram-png-transparent-1.png" type="img/png">
+                </div>
+                <p>Welcome to the signma Web Express!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; 
+    </footer>
+</html>
+ 
